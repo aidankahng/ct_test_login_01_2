@@ -37,6 +37,7 @@ h1 {
     font-size: x-large;
 }
 
+
 /* Body styling as flex container with direction column */
 body {
     display: flex;
@@ -114,13 +115,21 @@ button {
     border-radius: 2px;
 }
 
+
+
 .login-button {
     width: 100%;
     background: linear-gradient(hsl(50, 100%, 66%) 90%, hsl(50, 72%, 53%));
 }
+.login-button:hover {
+    background: hsl(50, 38%, 63%);
+}
 
 .create-acc-button {
     margin: 10px 0 30px 0;
+}
+.create-acc-button:hover {
+    background: hsl(0, 0%, 72%);
 }
 
 
